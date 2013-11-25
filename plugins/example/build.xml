@@ -1,0 +1,10 @@
+<project name="Jcm-Project-Template" default="test" basedir=".">
+  <description>
+    project description
+  </description>
+
+  <property file="project.properties" />
+
+  <import file="plugins/build.xml" as="phases" />
+
+</project>
