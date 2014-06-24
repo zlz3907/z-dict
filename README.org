@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+#+TITLE:  Z-Dict
+#+author: Bliss Chung
+#+email:  bliss@3zso.com
+#+date:   [2014-06-17 Tue 22:57]
+
+* Z-DICT
+* 使用说明
+* 目录结构
