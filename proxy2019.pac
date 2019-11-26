@@ -10,7 +10,21 @@ var directHost = [
 ];
 // 要跳的
 var freelist = [
+  'gravatar.com',
+  'gstatic.com',
+  'quora.com',
+  'gitlab-static.net',
+  'getbootstrap.com',
+  '.arkoselabs.com',
+  '.dropbox.com',
+  '.blogspot.com',
+  '.trafficjunky.net',
+  'jsfiddle.net',
+  'unpkg.com',
+  'medium.com',
   '.github.com',
+  'shadowsocks.org',
+  '.android.com',
   '.stackoverflow.com',
   '.softonic.com',
   '.sftcdn.net',
@@ -37,7 +51,6 @@ var freelist = [
   'googlesyndication',
   'p.tanx.com',
   'a.alimama.cn',
-  '.tube',
   '.pornhub.com',
   '.phncdn.com',
   '.pronhub.com',
@@ -47,9 +60,13 @@ var freelist = [
   '.ggpht.com',
   '.reddit.com',
   'mega.nz',
-  '.sap.com'
+  '.sap.com',
+  '.vimeo.com',
+  '.vimeocdn.com',
+  'tube8.com'
 ];
-var autoproxy = 'SOCKS5 127.0.0.1:1080; DIRECT';
+// var autoproxy = 'SOCKS5 127.0.0.1:1080; DIRECT';
+var autoproxy = 'SOCKS5 www.3zso.com:7711; DIRECT';
 // var blackhole = 'SOCKS5 127.0.0.1:7711; DIRECT';
 var D = 'DIRECT';
 //
